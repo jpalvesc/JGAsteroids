@@ -1,2 +1,2 @@
-# JGAsteroids
+# JGAsteroids CG
 CG
