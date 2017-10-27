@@ -172,7 +172,7 @@ public class JGAsteroidsRender implements GLEventListener{
      
         //para controlar a saída do console
         if(console % 30 == 0){
-            System.out.println("X: " + fog.getPosX() + ", Y: " + fog.getPosY() + ", Z: " + fog.getPosZ() + ", Veloc " + fog.getVel());
+            System.err.println("X: " + fog.getPosX() + ", Y: " + fog.getPosY() + ", Z: " + fog.getPosZ() + ", Veloc " + fog.getVel());
             console = 0;
         }
         
