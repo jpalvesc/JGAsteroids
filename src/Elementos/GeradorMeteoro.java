@@ -65,6 +65,7 @@ public class GeradorMeteoro {
         for(Meteoro meteor : listaMeteoro){
           //  Math.Pow(pAsteroide.x - pNave.x, 2) + Math.Pow(pAsteroide.y - pNave.y, 2) + Math.Pow(pAsteroide.z - pNave.z, 2), 1 / 3f
            // Math.pow(Math.pow(meteor.getPosX()-fog.getPosX(), 2)+ Math.pow(meteor.getPosY()-fog.getPosY(), 2) + Math.pow(meteor.getPosZ()-fog.getPosZ(), 2),2/3f)
+         // if(meteor.getPosX() ==0 || meteor.getPosY()==0 || meteor.getPosZ()==0)
             if(meteor.getPosX() == fog.getPosX() || meteor.getPosY()==fog.getPosY() || meteor.getPosZ()==fog.getPosZ()){
                  impacto= meteor.impacto=true;
                 System.out.println("Bateu!");
